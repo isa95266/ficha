@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Óptica - San Marcos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="fondo">
+    <div class="container">
+        <h1> FICHA ÓPTICA </h1>
+
+        <!-- Clave de respuestas -->
+        <div class="input-section">
+            <label for="answer-key">Ingrese la clave de respuestas:</label>
+            <textarea id="answer-key" placeholder="Ejemplo: a,b,c,d,e,..."></textarea>
+        </div>
+
+        <!-- Preguntas -->
+        <div id="questions-container">
+            <h2>Responde las siguientes preguntas:</h2>
+            <!-- Las preguntas se generan dinámicamente desde JavaScript -->
+        </div>
+
+        <!-- Botones -->
+        <button id="submit-btn">Enviar Respuestas</button>
+        <button id="reset-btn">Reiniciar Evaluación</button>
+
+        <!-- Resultados -->
+        <div class="result-section">
+            <h2>Resultados</h2>
+            <p id="score-display"></p>
+            <p id="incorrect-display"></p>
+        </div>
+
+        <!-- Historial -->
+        <div class="history-section">
+            <h2>Historial de Resultados</h2>
+            <ul id="history-list"></ul>
+            <div class="history-options">
+                <button id="delete-selected-btn">Eliminar Seleccionados</button>
+                <button id="delete-all-btn">Borrar Todo</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* Archivo CSS: styles.css */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://proactivo.com.pe/wp-content/uploads/2024/04/Universidad-Nacional-Mayor-de-San-Marcos.jpg);
+    width: 100%;
+    height: 100%;  
+    color: #333;
+    object-fit: cover;
+    background-attachment: fixed;
+
+}
+.fondo{
+    bottom: 50px;
+    background-color: rgba(109, 0, 0, 0.815);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  
+}
+.container {
+    top: 60px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px 10px rgb(255, 71, 71);
+    background-color: #fff;
+    position: relative;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 98%;
+    height: 60px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    align-items: center;
+    position: relative;
+}
+
+#questions-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#submit-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#reset-btn {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.result-section, .history-section {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.result-section h2, .history-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+#delete-selected-btn{
+    color: rgb(255, 255, 255);
+background-color: #02cfcf;
+}
+
+#delete-all-btn{
+    color: rgb(255, 255, 255);
+background-color: #f7a800;
+}
